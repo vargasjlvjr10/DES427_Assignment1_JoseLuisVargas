@@ -98,8 +98,19 @@ function draw() {
     textSize(48);
     textAlign(LEFT, CENTER);
     fill(255);
-    text("Get Well Soon!", width / 2 + 50, height / 2);
+    text("get well soon ;P", width / 2 + 50, height / 2);
   }
+
+  textSize(24);
+  textAlign(LEFT, BOTTOM);
+  fill(255);
+  text("mouse press to reveal the sun", 15, height - 40);
+
+  textSize(24);
+  textAlign(LEFT, BOTTOM);
+  fill(255);
+  text("press top/bottom arrow key to play/pause music", 15, height - 10);
+
 }
 
 function mousePressed() {
